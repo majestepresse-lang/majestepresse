@@ -1,0 +1,9 @@
+# MAJESTÉ PRESSE — Redirections permanentes (301)
+# Ancien lien Netlify → Nouveau domaine Vercel
+# Toutes les pages redirigées automatiquement
+
+# Redirection principale avec toutes les sous-pages
+https://mon-imprimeur-serigraphe.netlify.app/*  https://majestepresse.com/:splat  301!
+
+# Redirection de la page d'accueil seule (sécurité)
+https://mon-imprimeur-serigraphe.netlify.app    https://majestepresse.com          301!
